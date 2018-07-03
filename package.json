@@ -1,0 +1,19 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "simple chat apllication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e js,css,ejs,json chatroom/index.js --watch chatroom"
+  },
+  "author": "Ajit Tripathy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
